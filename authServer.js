@@ -38,7 +38,7 @@ app.delete("/logout", (req, res) => {
 });
 
 app.post("/login", async (req, res) => {
-	// authenticate user todo
+	// vertification for user todo
 
 	const { username, password } = req.body;
 
